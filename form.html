@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form assigmnent-two</title>
+</head>
+<body>
+
+    <form>
+        <u><h1>html form</h1></u>
+        <h2>please fill form</h2>
+        <label for="text">USERNAME:</label>
+            <input type="text" placeholder="e.g John Doe " required>
+        <br><br>
+
+        <label for="text">Email:</label>
+        <input type="email" required>
+    <br><br>
+
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"
+        minlength="4" maxlength="12" pattern=".*[A-Z].*" 
+        title="Password must contain at least one capital letter." required>
+        <br>
+        
+        <h3>choose a car for a free ride</h3>
+            <input type="radio" name="car" id="car1" value="car1">
+            <label for="cayenne" >Cayenne</label><br>
+
+            <input type="radio" name="car"  id="car2" value="car2">
+            <label for="McLaren">McLaren</label><br>
+
+            <input type="radio" name="car" id="car3" value="car3">
+            <label for="Range">Range</label><br>
+            
+            <h3>pick your favourite music genre list</h3>
+            <input type="checkbox" id="pop" value="pop">
+            <label for="pop">POP</label><br>
+
+            <input type="checkbox"   id="gospel" value="gospel">
+            <label for="gospel">GOSPEL</label><br>
+
+            <input type="checkbox"   id="country" value="country">
+            <label for="country">COUNTRY</label><br>
+
+            <input type="checkbox"  id="classic" value="classic">
+            <label for="cLASSIC">CLASSIC</label><br><br>
+            
+            <h3>number of dishes you will have tommorrow</h3>
+         
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="2" max="4" required>
+            
+               <br>
+               <br>
+               <label for="file"><h3>Try this see you can upload multiple files at once!!!</h3></label>
+               <input type="file" id="file" name="file" multiple >
+               <br>
+               <br>
+               <input type="submit" value="SUBMIT FORM">
+</body>
+</html>
